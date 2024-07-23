@@ -12,7 +12,7 @@ print(os.listdir("."))
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
-
+print(model)
 # Iniciar a aplicação FastAPI
 app = FastAPI()
 
